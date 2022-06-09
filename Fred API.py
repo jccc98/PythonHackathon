@@ -4,6 +4,7 @@ import plotly.express as px
 import pandas_datareader as pdr
 ## FRED API ##
 fred = fa.Fred('6928edb718dc74993ad6d6387be1d1de ')
+##
 
 ###DATA FRAME FUNCTION ##
 def get_fred_data(param_list, start_date, end_date):
